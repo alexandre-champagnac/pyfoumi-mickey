@@ -3,11 +3,11 @@ from PIL import Image
 
 #Chargement et préparation des images
 
-img_pierre = Image.open("pierrem.png")
-img_feuille = Image.open("feuillem.png")
-img_ciseaux = Image.open("ciseauxm.png")
-img_win = Image.open("winm.png")
-img_lose = Image.open("losem.png")
+img_pierre = Image.open("images/pierrem.png")
+img_feuille = Image.open("images/feuillem.png")
+img_ciseaux = Image.open("images/ciseauxm.png")
+img_win = Image.open("images/winm.png")
+img_lose = Image.open("images/losem.png")
 img_assemble = Image.new("RGB",(600,200))
 
 #Bienvenue
